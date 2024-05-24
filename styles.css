@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0 0 20px;
+}
+
+.header,
+.section,
+.footer {
+    padding: 20px;
+    text-align: center;
+}
+
+.hero {
+    background: url('beachfront.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    text-align: center;
+}
+
+.hero .cta {
+    background: #333;
+    padding: 10px 20px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.about,
+.properties,
+.amenities,
+.tour,
+.testimonials,
+.contact,
+.location {
+    padding: 60px 20px;
+}
+
+.property {
+    background: #f4f4f4;
+    margin: 20px 0;
+    padding: 20px;
+    text-align: left;
+}
+
+.property img {
+    max-width: 100%;
+}
+
+.cta {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+button {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer nav a {
+    margin: 0 10px;
+    color: #fff;
+}
+
+.footer .social-links {
+    margin-top: 10px;
+}
